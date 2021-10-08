@@ -1,0 +1,169 @@
+
+#maindiv{
+  
+    height: fit-content;
+    float: left;
+    width:95%;
+    border:2.5px solid black;
+    position: relative;
+    margin-top: 20px;;
+   
+    margin-left: 50px;
+
+
+}
+#heading{
+    background-color: rgb(45, 225, 195);
+    height:8vh;
+    width:100wh;
+    
+    border-bottom:1.5px solid black;
+}
+#form{
+   
+    margin-top:40px;
+    margin-left: 100px;;
+    
+}
+.input{
+    margin-top: 10px;;
+    
+    margin-left:50px;
+    height:30px;;
+    width:40%;
+    border-radius:5px;
+    border:1.5px solid black;
+}
+.gender1{
+    margin-left:70px;
+}
+.skills{
+    margin-left:85px;
+
+}
+.student-form1{
+    height:38px;
+    width: 120px;
+    background-color:blue;
+    border:2px solid white;
+    border-radius: 8px;
+    color:white;
+}
+.clear{
+    height:38px;
+    width: 80px;
+    background-color:red;
+    border:2px solid white;
+    border-radius: 8px;
+    color:white;
+    
+    
+}
+
+#formdiv{
+    width:48%;
+    text-align: left;
+    float: left;
+   
+}
+#middlediv{
+    width:2%;
+    float: left;
+}
+#line{
+    height:300px;
+    width:3px;
+    margin-top: 80px;
+    background-color:  rgb(45, 225, 195);
+}
+#tablediv{
+    width:48%;
+    text-align: left;
+    float: right;
+
+   
+}
+
+th{
+    color:white;
+    background-color: rgb(155, 204, 76);
+    text-align: left;
+    padding: 5px;
+    border:2px solid rgb(126, 184, 34); 
+}
+
+table.list{
+    width:80%;
+    margin-left: 50px;
+    margin-top: 40px;
+    border:2px solid rgb(126, 184, 34);
+    border-collapse: collapse;
+    
+    
+
+}
+
+td{
+    
+    border:2px solid rgb(126, 184, 34);
+    text-align: left;
+    padding: 8px;
+    animation: fadeInAnimation ease 3s
+    
+    
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #d3dbc1;
+   
+
+   
+}
+#enrollstudents{
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(45, 225, 195);
+    color:white;
+    height:20px;
+
+    width:100%;
+    margin-bottom: -21.5px;
+   
+    margin-left: -11px;;
+    border:2.5px solid black;
+    border-top:1.5px solid white;
+}
+
+
+@media  screen and (max-width:800px) {
+    #line{
+       background-color: red;
+       width:0;
+    }
+   #form{
+       margin-left:5px;
+   }
+    
+}
+@media  screen and (max-width:500px) {
+    
+   #maindiv{
+       margin-left:5px;
+   }
+ 
+  
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
